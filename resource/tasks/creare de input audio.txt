@@ -1,0 +1,17 @@
+Descriere:
+Pentru realizarea aplicatiei avem nevoie de date pe care sa aplicam mai multe functii. Aceste date le vom prelua fie de la microfon, fie va fi un fisier audio standard de test.
+
+Se cere:
+- implementarea si testarea functiei pentru selectarea de fisier audio
+- by default va fi selectat un fisier audio din folderul resurse
+- functia va returna obiectul
+- la final se va realiza o documentatie a codului scris si modul de functionare
+
+Nota de informare: 
+- documentatia se va completa in wordul Documentatie din folderul resurse
+- functia va fi scrisa intr-un fisier cu nume sugestiv (ulterior va fi apelat intr-o componenta 'gazda')
+
+Documentatie: 
+https://www.mathworks.com/help/audio/referencelist.html?type=function&category=audio-io-and-waveform-generation&s_tid=CRUX_topnav
+ 
+ 

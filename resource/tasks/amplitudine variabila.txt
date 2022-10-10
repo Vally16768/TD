@@ -1,0 +1,17 @@
+Descriere:
+In cadrul taskului vom vizualiza si testa comportamentul pe semnalul audio al adaugarii unei constante.
+
+Se cere:
+- implementarea unui input cu labelul 'Amplitudine'
+- starea default este 0
+- atunci cand se schimba se va adauga peste semnalul primit ca parametru constanta din input
+- va aparea o noua fereastra in care se va vizualiza semnalul original, semnalul dupa aplicarea constantei
+- documentatie pentru acest task
+
+Nota de informare:
+- Taskul se va realiza intr-un fisier separat cu nume sugestiv.
+- Functia va returna semnalul cu noua amplitudine.
+- documentatia se va completa in wordul Documentatie din folderul resurse
+
+Documentatie:
+https://www.mathworks.com/help/matlab/ref/uicontrol.html

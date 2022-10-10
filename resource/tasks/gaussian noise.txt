@@ -1,0 +1,16 @@
+Descriere:
+In cadrul taskului vom vizualiza si testa comportamentul pe semnalul audio al zgomotului.
+
+Se cere:
+- implementarea unui checkbox cu labelul 'Gaussian'
+- atunci cand checkboxul are starea 'checked' peste semnalul primit ca parametru se va aplica zgomot gaussaian
+- va aparea o noua fereastra in care se va vizualiza semnalul original, semnalul dupa aplicarea gaussian si semnalul gaussian
+- documentatie pentru acest task
+
+Nota de informare:
+- Taskul se va realiza intr-un fisier separat cu nume sugestiv.
+- Functia va returna semnalul alterat de zgomot.
+- documentatia se va completa in wordul Documentatie din folderul resurse
+
+Documentatie:
+https://www.mathworks.com/help/comm/ref/awgn.html
