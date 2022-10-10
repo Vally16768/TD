@@ -1,0 +1,13 @@
+Descriere:
+In cadrul taskului se va implementa un buton de iesire.
+
+Se cere:
+- butonul va avea texutl 'Iesire'
+- culoare rosu
+- la apasarea butonului aplicatia se va inchide
+
+Nota de informare:
+- documentatia se va completa in wordul Documentatie din folderul resurse
+
+Documentatie:
+https://www.mathworks.com/matlabcentral/answers/482362-use-a-push-button-to-close-the-gui

@@ -1,0 +1,14 @@
+Descriere:
+In cadrul taskului se va implementa un buton de reset care va initializa aplicatia cu starea default.
+
+Se cere:
+- butonul va avea texutl 'Reset'
+- culoare gray
+- la apasarea butonului aplicatia se va initializa cu starea default
+
+Nota de informare:
+- se poate implementa si prin inchidere si deschidere
+- documentatia se va completa in wordul Documentatie din folderul resurse
+
+
+
