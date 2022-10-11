@@ -3,6 +3,8 @@ Pentru realizarea aplicatiei avem nevoie de date pe care sa aplicam mai multe fu
 
 Se cere:
 - implementarea si testarea functiei pentru selectarea de fisier audio
+- implementarea si testarea functiei pentru input de la placa audio
+- crearea posibilitatii de a trece de la fisier audio la un semnal preluat de la placa audio
 - by default va fi selectat un fisier audio din folderul resurse
 - functia va returna obiectul
 - la final se va realiza o documentatie a codului scris si modul de functionare
