@@ -1,4 +1,4 @@
-function chart(fig,ActionText,amplitude,isJitter,isGaussian,isEcho,isAwg)
+function chart(fig,ActionText,amplitude,isJitter,isGaussian,isEcho,~)
 factorAmplificareJitter = 500;
 gaussianSnr=20; 
 ActionText.String='Inregistreaza';
@@ -17,8 +17,9 @@ if(isGaussian)
     editedSignal=gaussian(editedSignal, gaussianSnr);
 end
 
-% if(isEcho)
-% end
+if(isEcho)
+    editedSignal=echo_signal(editedSignal,44100,0.3,0.5);
+end
 % 
 % if(isAwg)
 % end
