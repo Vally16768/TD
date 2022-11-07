@@ -1,4 +1,4 @@
-function chart(fig,ActionText,amplitude,isJitter,isGaussian,isEcho,~)
+function chart(fig,ActionText,amplitude,isJitter,isGaussian,isEcho,isAwg)
 factorAmplificareJitter = 500;
 gaussianSnr=20; 
 ActionText.String='Inregistreaza';
@@ -20,9 +20,9 @@ end
 if(isEcho)
     editedSignal=echo_signal(editedSignal,44100,0.3,0.5);
 end
-% 
-% if(isAwg)
-% end
+if(isAwg)
+    editedSignal=smoothing(editedSignal);
+end
 
 originalChartUI = uiaxes(fig, 'Position',[650 500 550 400]);
  plot(originalChartUI,originalSignal);
