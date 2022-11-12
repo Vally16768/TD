@@ -3,6 +3,7 @@ factorAmplificareJitter = 500;
 gaussianSnr=20; 
 
 if(microphone)
+pause(5);
 ActionText.String='Inregistreaza';
 originalSignal = audioRecorder();
 editedSignal = originalSignal;
@@ -38,10 +39,12 @@ originalChartUI = uiaxes(fig, 'Position',[650 500 550 400]);
 editedChartUI = uiaxes(fig, 'Position',[650 100 550 400]);
  plot(editedChartUI,editedSignal);
 
-
-if(microphone) 
+if(microphone)
     ActionText.String='Reda';
     soundsc(double(editedSignal),44100,16);
+    pause(5);
+else
+    pause(1);
 end
 
 end

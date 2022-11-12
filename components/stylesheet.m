@@ -128,7 +128,6 @@ uicontrol(fig,'Style','pushbutton',... % create a reset button
             Pause.String = 'Pause';
             while isPause == 0
             chart(fig,microphone,amplitude,periods,isJitter,isGaussian,isEcho,isAwg);
-            pause(1);
             end
         end
         
@@ -164,7 +163,7 @@ function periodsChanged(value)
 
 %---Render charts---%
 while isPause == 0
-chart(fig,microphone,ActionText,amplitude,periods,isJitter,isGaussian,isEcho,isAwg);
-pause(5);
+chart(fig,microphone,ActionText,amplitude,periods,isJitter,isGaussian,isEcho,isAwg)
 end
+
 end
