@@ -1,4 +1,3 @@
 function s_signal= smoothing(input)
-rd = 3; %Polynomial order, specified as a positive integer. order must be smaller than framelen. If order = framelen – 1, the filter produces no smoothing.
-fl = 1249; % Frame length, specified as a positive odd integer.
-s_signal = sgolayfilt(input,rd,fl);
+windowWidth=100;
+s_signal = movmean(input, windowWidth); % returns an array of local k-point mean values, where each mean is calculated over a sliding window of length k across neighboring elements of the input.
